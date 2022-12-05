@@ -9,8 +9,9 @@
     "webpack": "5.70.0"
   },
   "scripts": {
-    "dev": "gulp dev --gulpfile build/gulpfile.js --cwd . --target",
-    "watch": "gulp watch --gulpfile build/gulpfile.js --cwd . --target",
+    "dev": "npm run watch",
+    "readl-dev": "gulp dev --gulpfile build/gulpfile.js --cwd . --target",
+    "watch": "gulp watch --gulpfile build/gulpfile.js --cwd . --target chromium",
     "start": "gulp start --gulpfile build/gulpfile.js --cwd . --target",
     "build": "gulp build --gulpfile build/gulpfile.js --cwd . --target",
     "pack": "gulp pack --gulpfile build/gulpfile.js --cwd . --target"

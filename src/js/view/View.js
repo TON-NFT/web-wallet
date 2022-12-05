@@ -848,7 +848,7 @@ class View {
       clazz: 'tx-item',
       child: [
         createElement({ tag: 'div', clazz: 'tx-pic' }),
-        createElement({ tag: 'tgs-player', clazz: 'balance-symbol', attr: { 'data-name': 'symbol', src: 'assets/lottie/diamond.tgs', width: '32', height: '32' } }),
+        // createElement({ tag: 'tgs-player', clazz: 'balance-symbol', attr: { 'data-name': 'symbol', src: 'assets/lottie/diamond.tgs', width: '32', height: '32' } }),
         createElement({
           tag: 'div',
           child: [
